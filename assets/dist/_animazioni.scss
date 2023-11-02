@@ -26,17 +26,21 @@
 }
 
 @keyframes fadeinonloadsheep {
-  0% {
+  from {
     transform: translateY(-100vh) rotate(0deg);
+    visibility: visible;
   }
-  33% {
-    transform: translateY(66vh) rotate(360deg);
+  to {
+    transform: translateY(-66vh) rotate(360deg);
+    visibility: visible;
   }
-  66% {
-    transform: translateY(33vh) rotate(0deg);
+  to {
+    transform: translateY(-33vh) rotate(540deg);
+    visibility: visible;
   }
-  100% {
-    transform: translateY(0vh) rotate(360deg);
+  to {
+    transform: translateY(0vh) rotate(720deg);
+    visibility: visible;
   }
 }
 
