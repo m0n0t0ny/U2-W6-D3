@@ -44,24 +44,6 @@
   }
 }
 
-@keyframes poopingsheep {
-  from {
-    transform: rotate(10deg);
-  }
-  to {
-    transform: rotate(-10deg);
-  }
-  to {
-    transform: rotate(5deg);
-  }
-  to {
-    transform: rotate(-5deg);
-  }
-  to {
-    transform: rotate(0);
-  }
-}
-
 @keyframes poppingpoo {
   0% {
     transform: translateY(-4rem) translateX(3rem) rotate(90deg) scale(0.7);
