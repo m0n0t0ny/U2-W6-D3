@@ -44,13 +44,39 @@
   }
 }
 
-@keyframes poppingpoo {
+@keyframes poopingsheep {
   from {
-    transform: translateY(-4rem) translateX(3rem) rotate(90deg);
-    visibility: visible;
+    transform: rotate(10deg);
   }
   to {
-    transform: translateY(0rem) translateX(0rem) rotate(0deg);
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes poppingpoo {
+  0% {
+    transform: translateY(-4rem) translateX(3rem) rotate(90deg) scale(0.7);
+    visibility: visible;
+  }
+  60% {
+    transform: translateY(0rem) translateX(0rem) rotate(0deg) scale(0.8);
+    visibility: visible;
+  }
+  65% {
+    transform: translateY(-1rem) translateX(-0.5rem) rotate(-5deg) scale(0.9);
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0rem) translateX(-1rem) rotate(0deg) scale(1);
     visibility: visible;
   }
 }

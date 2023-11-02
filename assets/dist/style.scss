@@ -95,10 +95,7 @@ html {
 
           #sheep {
             visibility: hidden;
-            animation: fadeinonloadsheep 2.5s forwards;
-            animation-delay: 2s;
-            animation-timing-function: ease;
-            -webkit-animation-timing-function: ease;
+            animation: fadeinonloadsheep 2.5s forwards ease 2s;
           }
 
           #poop {
@@ -110,8 +107,8 @@ html {
             visibility: hidden;
             animation: poppingpoo 0.5s forwards;
             animation-delay: 10s;
-            animation-timing-function: ease;
-            -webkit-animation-timing-function: ease;
+            animation-timing-function: linear;
+            -webkit-animation-timing-function: linear;
           }
         }
       }
